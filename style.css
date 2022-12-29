@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     border: 0px;
     margin: 0px;
+    color: #18191F;
 }
 
 /*********************************************************************
@@ -119,4 +120,113 @@ body {
 
 .my_recipies {
     margin-bottom: 40px;
+}
+
+/************************************************
+********************* Cards *********************
+*************************************************/
+
+.picture img {
+    width: 520px;
+    height: 350px;
+    padding-top: 35px;
+    padding-left: 38px;
+
+}
+
+.para h3 {
+    font-size: 28px;
+    color: #18191F;
+    padding-top: 3px;
+    padding-left: 35px;
+}
+
+.para p {
+    width: 90%;
+    color: #18191F;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.card_one {
+    width: 600px;
+    height: 630px;
+    display: block;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+#cards {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.card1 {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.card2 {
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+/***************************************************************
+************************ Followers Section *********************
+****************************************************************/
+
+.info h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.info p {
+    margin-top: -40px;
+}
+
+.info {
+    text-align: left;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+#followers {
+    margin-left: 80px;
+    margin-bottom: 100px;
+    width: 80%;
+    display: flex;
+    padding: 60px 80px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+
+/*************************************** 
+****************Footer *****************
+****************************************/
+
+footer h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #cecece;
+    font-weight: 100;
+}
+
+.fresh {
+    color: #5B5B5B;
+}
+
+footer {
+    letter-spacing: .1em;
+    line-height: 60px;
+    padding-top: 50px;
+    background-color: #18191F;
+    width: 100%;
+    height: 250px;
 }
