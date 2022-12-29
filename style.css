@@ -106,18 +106,17 @@ body {
 ********************* My Recipies ***********************
 *********************************************************/
 
-#my_recipies h2 {
+.my_recipies h2 {
     font-size: 36px;
     color: #676767;
     text-align: center;
 }
 
-#my_recipies p {
-    width: 40%;
-    text-align: center;
+.my_recipies p {
     color: #252525;
+    text-align: center;
 }
 
-.para {
-    text-align: center;
+.my_recipies {
+    margin-bottom: 40px;
 }
